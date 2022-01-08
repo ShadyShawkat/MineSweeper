@@ -5,6 +5,9 @@ Discover all the bombs and you will win. A pure JS game.
 - Right click, to flag/unflag a square.
 - Left click, to open a square.
 
+## Demo
+Here is [demo](https://shadyshawkat.github.io/MineSweeper/)
+
 ## Author
 
 👤 **Shady Shawkat**
