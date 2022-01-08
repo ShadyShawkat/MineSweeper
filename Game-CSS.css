@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 600px;
+  margin: auto;
+  background-color: rgb(30, 59, 145);
+}
+
+.grid {
+  margin-top: 5px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #94907e;
+  border: 10px solid #2b2924;
+  border-radius: 10px;
+}
+
+.grid div {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.checked {
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.bomb.bomb-help {
+  background-color: red;
+}
+
+.bomb,
+.safe {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+
+.exploded {
+  background-color: red;
+}
+
+#gameOver {
+  font-size: 50px;
+  color: #e76346;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.one {
+  color: blue;
+}
+
+.two {
+  color: green;
+}
+
+.three {
+  color: red;
+}
+
+.four {
+  color: purple;
+}
+
+.five {
+  color: maroon;
+}
+
+.six {
+  color: turquoise;
+}
+
+.six {
+  color: black;
+}
